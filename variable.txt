@@ -1,0 +1,30 @@
+variable "location" {
+  default = "us-east-1"
+}
+
+variable "os_name" {
+  default = "ami-0c7217cdde317cfec"
+}
+
+variable "key" {
+  default = "ubuntukey1"
+}
+
+variable "instance_type" {
+  default = "t2.small"
+}
+
+variable "vpc_cidr" {
+  default = "10.10.0.0/16"
+}
+
+variable "subnet1_cidr" {
+  default = "10.10.1.0/24"
+}
+
+variable "subnet_az" {
+  default = "us-east-1a"
+}
+
+
+#this variable can be used to change the hard-value from existed infrastructure
